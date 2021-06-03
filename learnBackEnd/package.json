@@ -12,8 +12,7 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client"
-
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
   },
   "author": "",
   "license": "ISC",
@@ -31,5 +30,3 @@
     "stripe": "^8.150.0"
   }
 }
-
-
